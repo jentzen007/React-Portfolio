@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+#body {
+    background-color: rgba(0, 0, 0, 0.51);
+    border-radius: 16px;
+    height: 650px;
+    overflow-y: scroll;
+    margin-top: 30px;
+    font-family: 'Poppins';
+    color: whitesmoke;
+}
+li {
+    padding-top: 30px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.contact {
+    padding: 0px;
+    font-size: medium;
+}
+
+#contactInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#whatsapp {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+#mail {
+    width: 40px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+#linkedin {
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+}
+.projects {
+    padding: 0px;
+}
+.projects:link {
+    color: rgb(109, 109, 255);
+}
+.projects:visited {
+    color: greenyellow;
+}
+.content {
+    max-width: 600px;
+}

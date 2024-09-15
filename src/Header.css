@@ -1,0 +1,26 @@
+a {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+a:link {
+    color: whitesmoke;
+    transition-duration: 200ms;
+}
+
+a:link:hover {
+    font-size: larger;
+    color: white;
+    transition-duration: 200ms;
+}
+
+#navBar {
+    background-color: rgba(0, 0, 0, 0.543);
+    width: 100%;
+    border-radius: 16px;
+}
